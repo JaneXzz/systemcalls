@@ -15,6 +15,7 @@
 		3FA615B81D1FEA0700A9C305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA615B61D1FEA0700A9C305 /* LaunchScreen.storyboard */; };
 		3FA615C31D1FEA0700A9C305 /* systemcallsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA615C21D1FEA0700A9C305 /* systemcallsTests.m */; };
 		3FA615CE1D1FEA0700A9C305 /* systemcallsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA615CD1D1FEA0700A9C305 /* systemcallsUITests.m */; };
+		3FA615DC1D1FF46700A9C305 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA615DB1D1FF46700A9C305 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3FA615C91D1FEA0700A9C305 /* systemcallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = systemcallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA615CD1D1FEA0700A9C305 /* systemcallsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = systemcallsUITests.m; sourceTree = "<group>"; };
 		3FA615CF1D1FEA0700A9C305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA615DB1D1FF46700A9C305 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA615DC1D1FF46700A9C305 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		3FA6159C1D1FEA0700A9C305 = {
 			isa = PBXGroup;
 			children = (
+				3FA615DB1D1FF46700A9C305 /* MessageUI.framework */,
 				3FA615A71D1FEA0700A9C305 /* systemcalls */,
 				3FA615C11D1FEA0700A9C305 /* systemcallsTests */,
 				3FA615CC1D1FEA0700A9C305 /* systemcallsUITests */,
