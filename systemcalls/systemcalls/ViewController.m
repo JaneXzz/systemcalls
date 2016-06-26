@@ -95,11 +95,6 @@
 }
 
 
-#pragma mark -- 通讯录
-- (IBAction)AddressBook:(id)sender {
-}
-
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -58,7 +58,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="send mail 1"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="209" y="246" width="77" height="30"/>
+                                    <rect key="frame" x="208" y="246" width="77" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="SendMail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQN-Cg-s6x"/>
@@ -84,16 +84,6 @@
                                     <action selector="SendEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6a-i0-oWY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKc-qx-MLp">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="address book"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="94" y="246" width="93" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="AddressBook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6OV-bw-MpF"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -105,7 +95,6 @@
                                 <exclude reference="dr7-BO-nOL"/>
                                 <exclude reference="6A9-Qf-HFM"/>
                                 <exclude reference="iQA-8h-Zhg"/>
-                                <exclude reference="KKc-qx-MLp"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -117,7 +106,6 @@
                                 <include reference="dr7-BO-nOL"/>
                                 <include reference="6A9-Qf-HFM"/>
                                 <include reference="iQA-8h-Zhg"/>
-                                <include reference="KKc-qx-MLp"/>
                             </mask>
                         </variation>
                     </view>
